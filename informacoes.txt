@@ -1,0 +1,8 @@
+Schema cadastro e tabela usuario:
+
+CREATE TABLE `cadastro`.`usuarios` (`id` INT UNSIGNED NOT NULL AUTO_INCREMENT , `nome` VARCHAR(255) NOT NULL , `email` VARCHAR(255) NOT NULL , `telefone` VARCHAR(11) NOT NULL , `data_nascimento` DATE NOT NULL , `senha` VARCHAR(255) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+No xampp -> mysql -> criar o banco cadastro e a tabela usuarios referente aos campos acima.
+
+no arquivo config.php esta definido a conexao com o banco mysql.
+
