@@ -92,3 +92,12 @@ li {
 .services:hover .dropdown {
   display: block;
 }
+
+#cadastro {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+}
