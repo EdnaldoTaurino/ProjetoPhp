@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-
+<html lang="pt-br">
 <head>
 	<meta charset="UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,7 +7,6 @@
 	<link rel="stylesheet" href="css/style.css" />
 	<title>PROGRAMACAO WEB</title>
 </head>
-
 <body>
 	<nav class="navbar">
 		<!-- LOGO -->
@@ -17,7 +16,6 @@
 		<ul class="nav-links">
 			<!-- NAVIGATION MENUS -->
 			<div class="menu">
-
 				<li><a href="index.php">Home</a></li>
 				<li><a href="?page=novo">Novo usuário</a></li>
 				<li><a href="?page=listar">Listar usuário</a></li>
@@ -28,7 +26,7 @@
 
 	<div class="container">
 		<div class="row">
-			<div class="col mt-5">
+			<div class="home">
 				<?php
 					include("config.php");
 					switch (@$_REQUEST["page"]) {
@@ -54,7 +52,5 @@
 			</div>
 		</div>
 	</div>
-
 </body>
-
 </html>
