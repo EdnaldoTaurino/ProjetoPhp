@@ -1,4 +1,5 @@
-<h1>Listar usuário</h1>
+<div class="container">
+<h1 class="listUser">Listar usuário</h1>
 <?php
 
   $sql = "SELECT * FROM usuarios";
@@ -25,10 +26,10 @@
       print "<td>".$row->telefone."</td>";
       print "<td>".$row->data_nascimento."</td>";
 
-      print "<td><button onclick=\"location.href='?page=editar&id=".$row->id."';\" 
+      print "<td><button class='editar' onclick=\"location.href='?page=editar&id=".$row->id."';\" 
       style='background-color:green' type='button'>Editar</button></td>";
       
-      print "<td><button 
+      print "<td><button class='excluir'
       onclick=\"if(confirm('Tem certeza que deseja excluir?')){location.href='?page=utils&acao=excluir&id=".$row->id."';}
       else{false;}\"
       style='background-color:red' type='button'>Excluir</button></td>";
@@ -39,5 +40,5 @@
   }else {
     print "<script>alert('Nao foi possivel encontrar resultados');</script>";
   }
-
 ?>
+ </div>
