@@ -304,20 +304,20 @@ form {
   margin-top: 20px;
 }
 
-label {
+#buscar label {
   display: block;
   margin-bottom: 8px;
   font-weight: bold;
 }
 
-input[type="text"] {
+#buscar input[type="text"] {
   width: 100%;
   padding: 8px;
   margin-bottom: 16px;
   box-sizing: border-box;
 }
 
-input[type="submit"] {
+#buscar input[type="submit"] {
   background-color: #007bff;
   color: #fff;
   padding: 10px;
@@ -326,7 +326,7 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-input[type="submit"]:hover {
+#buscar input[type="submit"]:hover {
   background-color: #0056b3;
 }
 
