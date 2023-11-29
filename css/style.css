@@ -23,7 +23,7 @@ li {
   align-items: center;
   justify-content: center;
   height: 91.5vh;
-  background-image: url('https://ortodontista.net/wp-content/uploads/2018/05/background-branco-1.jpg'); 
+  background-image: url('../assets/fundo.jpg'); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
