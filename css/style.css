@@ -95,11 +95,67 @@ li {
   display: block;
 }
 
+.novo_usuario {
+  background-image: url(''); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 #cadastro {
-  background-color: #fff;
   border: 1px solid #ddd;
-  padding: 20px;
   border-radius: 8px;
   width: 300px;
   text-align: center;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+  font-family: 'Arial', sans-serif;
 }
+
+#cadastro h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.form_grupo {
+  margin-bottom: 15px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.form_label {
+  display: block;
+  margin-right: 10px;
+  color: #555;
+  width: 80px; /* Adiciona uma largura fixa para os rótulos */
+}
+
+.form_input {
+  flex: 1; /* Ocupa o restante do espaço disponível */
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.form_input:focus {
+  outline: none;
+  border-color: #6a7ec1;
+}
+
+input[type="submit"] {
+  background-color: #6a7ec1;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+  background-color: #5561a1;
+}
+
